@@ -1,7 +1,7 @@
 MariaDB Galera Cluster Arbitrator container
 
 ## Usage
-`docker run -d --name galera-arbitrator -v /path_to/garb.cfg:/data/garb.cfg:ro galera-arbitrator`
+`docker run -d --name galera-arbitrator -v /path_to/garb.cfg:/data/garb.cfg:ro neomediatech/galera-arbitrator`
 
 ## garb.cfg example file
 ```
